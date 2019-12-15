@@ -4,8 +4,10 @@ import './App.css'
 import { Link, Router } from '@reach/router'
 import Timeline from './timeline'
 
-const Policy = () => <h1>Policy</h1>
-const About = () => <h1>About</h1>
+const Policy = () => (
+  <h1 className="text-5xl p-4">Policy</h1>
+)
+const About = () => <h1 className="text-5xl p-4">About</h1>
 function App() {
   return (
     <div className="App">
